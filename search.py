@@ -87,6 +87,7 @@ def depthFirstSearch(problem):
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
     "*** YOUR CODE HERE ***"
+
     startingNode = problem.getStartState() #start the game
     if problem.isGoalState(startingNode): # did we reach the goal state? return empty list
         return []
